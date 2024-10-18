@@ -24,3 +24,25 @@ table {
             padding: 10px;
             text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.nail-polish-square {
+    width: 50px; /* Set the width of the square */
+    height: 50px; /* Set the height of the square */
+    margin: 10px; /* Add some space between squares */
+    border-radius: 5px; /* Optional: round the corners slightly */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+    transition: transform 0.3s; /* Optional: add a smooth transition */
+}
+
+.nail-polish-square:hover {
+    transform: scale(1.1); /* Slightly enlarge the square on hover */
+}
